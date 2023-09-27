@@ -27,7 +27,8 @@ public class TasksController {
 	private String VERSION;
 	
 	public String getBackendURL() {
-		return "http://" + BACKEND_HOST + ":" + BACKEND_PORT;
+		//return "http://" + BACKEND_HOST + ":" + BACKEND_PORT;
+		return "http://" + BACKEND_HOST + ":" + 8080;
 	}
 	
 	@GetMapping("")
